@@ -7,6 +7,7 @@
 //
 
 #import "KJTViewController.h"
+#import "JsonTest.h"
 
 @interface KJTViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+    JsonTest* jsonTest = [[JsonTest alloc] init];
+    
+    NSString* wut = [jsonTest getjSon];
+    
 }
 
 - (void)didReceiveMemoryWarning

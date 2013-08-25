@@ -23,6 +23,8 @@
 		16B96D9617C8DB8F007A180E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B96D7117C8DB8E007A180E /* Foundation.framework */; };
 		16B96D9E17C8DB8F007A180E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16B96D9C17C8DB8F007A180E /* InfoPlist.strings */; };
 		16B96DA117C8DB8F007A180E /* jsontestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B96DA017C8DB8F007A180E /* jsontestTests.m */; };
+		16B96DAC17C8DE02007A180E /* JsonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B96DAB17C8DE02007A180E /* JsonTest.m */; };
+		16B96DAD17C8DE02007A180E /* JsonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B96DAB17C8DE02007A180E /* JsonTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		16B96D9D17C8DB8F007A180E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16B96D9F17C8DB8F007A180E /* jsontestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jsontestTests.h; sourceTree = "<group>"; };
 		16B96DA017C8DB8F007A180E /* jsontestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jsontestTests.m; sourceTree = "<group>"; };
+		16B96DAA17C8DE02007A180E /* JsonTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonTest.h; sourceTree = "<group>"; };
+		16B96DAB17C8DE02007A180E /* JsonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		16B96D7517C8DB8E007A180E /* jsontest */ = {
 			isa = PBXGroup;
 			children = (
+				16B96DAA17C8DE02007A180E /* JsonTest.h */,
+				16B96DAB17C8DE02007A180E /* JsonTest.m */,
 				16B96D7E17C8DB8E007A180E /* KJTAppDelegate.h */,
 				16B96D7F17C8DB8E007A180E /* KJTAppDelegate.m */,
 				16B96D8717C8DB8E007A180E /* MainStoryboard.storyboard */,
@@ -274,6 +280,7 @@
 				16B96D7C17C8DB8E007A180E /* main.m in Sources */,
 				16B96D8017C8DB8E007A180E /* KJTAppDelegate.m in Sources */,
 				16B96D8C17C8DB8E007A180E /* KJTViewController.m in Sources */,
+				16B96DAC17C8DE02007A180E /* JsonTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16B96DA117C8DB8F007A180E /* jsontestTests.m in Sources */,
+				16B96DAD17C8DE02007A180E /* JsonTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
